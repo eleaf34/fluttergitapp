@@ -20,7 +20,7 @@ class _ElifState extends State<Elif> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Elif Sayfası')),
+      appBar: AppBar(title: Text('Elif Olmez Yılmaz Sayfası ')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
