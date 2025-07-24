@@ -19,17 +19,14 @@ class _BetulState extends State<Betul> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Betul Sayfası')),
+      appBar: AppBar(title: Text('Betul Sayfasi Guncellendi')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text('Sayaç: $sayac', style: TextStyle(fontSize: 24)),
             SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: arttir,
-              child: Text('Artır'),
-            ),
+            ElevatedButton(onPressed: arttir, child: Text('Artır')),
           ],
         ),
       ),
